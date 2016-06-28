@@ -1,0 +1,18 @@
+[0m[[0minfo[0m] [0m[32mDaoStockTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mgetAllStock[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return all data-set[0m[0m
+[0m[[0minfo[0m] [0m[32mitemExist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true for existing item[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false for not existing item[0m[0m
+[0m[[0minfo[0m] [0m[32maddItem[0m[0m
+[0m[[0minfo[0m] [0m[32m- should add to data-set new item and return boolean value[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false, if element with a such name already exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 6 elements from data-set[0m[0m
+[0m[[0minfo[0m] [0m[32mUpdateItem[0m[0m
+[0m[[0minfo[0m] [0m[32m- should update item within data-set[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false, if element with a such name not exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 5 elements from data-set[0m[0m
+[0m[[0minfo[0m] [0m[32mremoveItem[0m[0m
+[0m[[0minfo[0m] [0m[32m- should change all data-set minus removed item and return boolean value if item exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false, if element with a such name not exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 4 elements from data-set[0m[0m

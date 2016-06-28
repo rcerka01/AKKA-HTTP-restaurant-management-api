@@ -1,0 +1,17 @@
+test
+test clear
+test clean
+clean test
+clear test
+--clean test
+clean test
+clean
+test
+sbt clean clean-files
+clean clean-files
+reload
+test
+reload
+test
+reload
+test

@@ -1,0 +1,12 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.restoran.stock.test.DaoStockTest, org.scalatest.tools.Framework$$anon$1@4faa057e, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.restoran.stock.test.RouterTest, org.scalatest.tools.Framework$$anon$1@4faa057e, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.restoran.stock.test.StockServicesTest, org.scalatest.tools.Framework$$anon$1@4faa057e, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 601 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 38[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 38, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	com.restoran.stock.test.StockServicesTest[0m
+[0m[[0mdebug[0m] [0m	com.restoran.stock.test.RouterTest[0m
+[0m[[0mdebug[0m] [0m	com.restoran.stock.test.DaoStockTest[0m

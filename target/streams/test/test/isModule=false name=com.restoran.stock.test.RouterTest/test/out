@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mRouterTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mThe all-items service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return all data-set from GET request to the /all-items path[0m[0m
+[0m[[0minfo[0m] [0m[32m- should leave GET requests to undefined paths unhandled[0m[0m
+[0m[[0minfo[0m] [0m[32mThe running-out-of-stock service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should from GET request return data-set for given category, where quantity is less than 10[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty stock for undefined category[0m[0m
+[0m[[0minfo[0m] [0m[32mThe add-item service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should from POST request add new item[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject request if item already exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject other requests than Post[0m[0m
+[0m[[0minfo[0m] [0m[32mThe update-item-quantity service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should from PUT request update item quantity[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject request for not existing item[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject other requests than Post[0m[0m
+[0m[[0minfo[0m] [0m[32mThe remove-item service[0m[0m
+[0m[[0minfo[0m] [0m[32m- should from DELETE request remove item by name[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject request for not existing item[0m[0m
+[0m[[0minfo[0m] [0m[32m- should reject other requests than Delete[0m[0m
